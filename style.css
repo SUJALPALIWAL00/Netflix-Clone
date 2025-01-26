@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Poppins;
+}
+body{ 
+    background-color: black;
+}
+
+.bg {
+    height: 70vh;
+    background-image: url(assets/images/bg.jpg);
+    
+}
+
+.opacity {
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.45);
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-btn {
+    margin-top: 12px;
+}
+
+.nav-btn button {
+    color: white;
+
+    padding: 3px 15px;
+    border: 0.5px solid white;
+    border-radius: 4px;
+}
+
+.transparent-btn {
+    background-color: rgba(82, 19, 19, 0.353);
+}
+
+.red-btn {
+    background-color: red;
+}
+.content{
+    margin-top: 100px;
+}
+.content div{
+    margin: 10px;
+}
+.content div:nth-child(1){
+    font-size: 44px;
+}
+.content div:nth-child(2){
+    font-size: 24px; 
+}
+.content div:nth-child(3){
+    font-size: 24px;
+}
+.seprator {
+    height: 3px;
+    background-color: rgb(72, 89, 90);
+}
+.first{
+    position: relative;
+    margin: auto;
+    height: 500px;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+}
+.img{
+    z-index: 1;
+}
+.first div{
+    font-size: 24px;
+    
+}
+.text div{
+    font-size: 45px;
+}
+.video1{
+    position: absolute;
+    top: 160px;
+    right: 55px;
+    width: 290px;
+}
+.faq{
+    height: 500px;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq>div:first-child{
+    font-size: 45px;
+    font-weight: 800;
+}
+.questions{
+    width: 80%;
+    margin: 10px;
+    font-size: 24px;
+    padding: 20px;
+    background-color: rgb(72, 89, 90);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.questions:hover{
+    background-color: rgb(49, 56, 57) ;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    margin: auto;
+    
+
+
+}
+.footer{
+    height: 250px;
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    margin: 50px;
+    margin-left: 100px;
+    
+}
+.footer a{
+    color:rgb(97, 129, 131) ;
+
+}
+.footer a:hover{
+    color:white;
+
+}
